@@ -1,0 +1,31 @@
+{
+  "name": "@lbcron/steve-capital-multihopper-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Capital Agent for Steve Capital (OOBE Protocol SAP v2) with MultiHopper Programmable Routing, Ace Data Cloud Conviction Scoring & MCP Server on Solana",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "bin": {
+    "steve-capital-mcp": "./src/mcp-server.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/steve-capital-agent.test.mjs",
+    "demo": "node src/cli-demo.mjs",
+    "mcp": "node src/mcp-server.mjs"
+  },
+  "keywords": [
+    "solana",
+    "oobe-protocol",
+    "steve-capital",
+    "synapse-sap",
+    "multihopper",
+    "ace-data-cloud",
+    "mcp",
+    "x402",
+    "autonomous-agent"
+  ],
+  "author": "Ronan Chen Lopes <ronanchenlopes@gmail.com> (@LBCron)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

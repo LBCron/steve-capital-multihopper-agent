@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "steve-capital-multihopper": {
+      "command": "node",
+      "args": ["./src/mcp-server.mjs"],
+      "env": {
+        "SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com",
+        "STEVE_AGENT_WALLET": "32647Bri8KhJQE11x26iF7fpae9nouCJSZ8Y2VPpq5yM"
+      }
+    }
+  }
+}

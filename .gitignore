@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.journal
+*.jsonl
+tmp/
+.DS_Store
+__pycache__/
